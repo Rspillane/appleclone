@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+body {
+    margin:0px;
+    font-family: "San Francisco";
+    font-size: 13px;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-inline: 20px;
+    height: 35px;
+    background-color: rgb(80, 78, 78);
+}
+
+.nav-bar-start {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-end;
+}
+
+.nav-bar-end {
+    flex-direction: row;
+    padding-left: 10px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.central-nav {
+    margin: 0px;
+    width: 600px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-content: center;
+    /* background-color: red; */
+}
+
+.nav-list li{
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: aliceblue;
+    /* background-color: rgb(41, 60, 45); */
+}
+
+ul {
+    padding: 0px;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    justify-content: space-evenly;
+}
+
+
+.nav-list {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    /* background-color: brown; */
+}
+
+.material-icons.md-light { 
+    color: aliceblue;
+}
+.material-icons.md-light.md-inactive { 
+    color: aliceblue;
+}
